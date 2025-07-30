@@ -4,11 +4,16 @@
 
 ## 概要
 
-このプロジェクトには、以下の3つのJupyter Notebookファイルが含まれています：
+このプロジェクトには、以下のJupyter Notebookファイルが含まれています：
 
 1. `dev.ipynb`: 水戸市の店舗情報を取得します。
 2. `dev_2.ipynb`: 前橋市の店舗情報を取得します。
 3. `dev_3.ipynb`: 宇都宮市の店舗情報を取得します。
+4. `dev_4.ipynb`: つくば市の店舗情報を取得します。
+5. `dev_5.ipynb`: 高崎市の店舗情報を取得します。
+6. `dev_6.ipynb`: 小山市の店舗情報を取得します。
+7. `dev_7.ipynb`: 福島市の店舗情報を取得します。
+8. `dev_8.ipynb`: 郡山市の店舗情報を取得します。
 
 各ノートブックは、指定された地域の食べログページから店舗の詳細情報を収集し、CSVファイルに保存します。
 
@@ -43,6 +48,11 @@ uv sync
    - `dev.ipynb` -> `mito.csv`
    - `dev_2.ipynb` -> `maebashi.csv`
    - `dev_3.ipynb` -> `utsunomiya.csv`
+   - `dev_4.ipynb` -> `tsukuba.csv`
+   - `dev_5.ipynb` -> `takasaki.csv`
+   - `dev_6.ipynb` -> `oyama.csv`
+   - `dev_7.ipynb` -> `fukushima.csv`
+   - `dev_8.ipynb` -> `kooriyama.csv`
 
 ## 出力ファイル
 
